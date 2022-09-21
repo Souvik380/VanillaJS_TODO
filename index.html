@@ -13,6 +13,10 @@
 <body>
     <header>
         <h1>ToDo List</h1>
+        <button id="all">All</button>
+        <button id="active">Active</button>
+        <button id="completed">Completed</button>
+        
         <form id="new-task-form">
             <input id="new-task-input" type="text" placeholder="Add a ToDo" />
             <input id="new-task-submit" type="submit" placeholder="Submit" />
@@ -20,23 +24,19 @@
     </header>
 
     <main>
-        <section class="task-list">
-            <h2>Task Lists</h2>
-            <div id="tasks">
-
-                <!-- <div class="content">
-                    <input type="text" class="text" value="my task" readonly />
-                </div>
-
-                <div class="actions">
-                    <button class="edit">Edit</button>
-                    <button class="delete">Delete</button>
-                </div> -->
+        <section class="tasks-lists">
+            <div class="tasks">
 
             </div>
+
+            <p class="display-items"></p>
+
+            <!-- <button id="all">All</button>
+            <button id="active">Active</button>
+            <button id="completed">Completed</button> -->
         </section>
     </main>
     
-    <script src="script.js"></script>
+    <script src="script2.js"></script>
 </body>
 </html>
